@@ -19,6 +19,14 @@
 
 ---
 
+## Screenshots
+
+| Package Selector                        | Preview & Download                    |
+| --------------------------------------- | ------------------------------------- |
+| ![Package selector](screenshots/1.jpeg) | ![Preview canvas](screenshots/2.jpeg) |
+
+---
+
 ## Features
 
 - Drag-and-drop or click-to-browse photo upload (JPG, PNG, WEBP)
