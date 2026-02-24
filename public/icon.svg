@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="white" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="roundedClip">
+      <rect width="512" height="512" rx="112"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- Shine overlay -->
+  <rect width="512" height="256" rx="112" fill="url(#shine)" clip-path="url(#roundedClip)"/>
+
+  <!-- Camera body -->
+  <rect x="88" y="176" width="336" height="220" rx="32" fill="white" opacity="0.95"/>
+
+  <!-- Camera bump (top centre) -->
+  <rect x="192" y="132" width="128" height="64" rx="20" fill="white" opacity="0.95"/>
+
+  <!-- Lens (outer ring) -->
+  <circle cx="256" cy="286" r="84" fill="#4f46e5"/>
+  <!-- Lens (middle ring) -->
+  <circle cx="256" cy="286" r="62" fill="#6d28d9" opacity="0.6"/>
+  <!-- Lens (inner) -->
+  <circle cx="256" cy="286" r="42" fill="#1e1b4b"/>
+
+  <!-- 2×2 photo grid overlay on lens (white lines) -->
+  <line x1="256" y1="244" x2="256" y2="328" stroke="white" stroke-width="4" opacity="0.35"/>
+  <line x1="214" y1="286" x2="298" y2="286" stroke="white" stroke-width="4" opacity="0.35"/>
+
+  <!-- Lens sheen highlight -->
+  <circle cx="238" cy="267" r="14" fill="white" opacity="0.18"/>
+
+  <!-- Flash / indicator dot top-right of body -->
+  <circle cx="358" cy="214" r="14" fill="#a5f3fc" opacity="0.9"/>
+
+  <!-- Shutter button highlight on bump -->
+  <circle cx="256" cy="150" r="12" fill="#c4b5fd" opacity="0.7"/>
+</svg>
