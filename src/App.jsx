@@ -2,6 +2,7 @@ import { useState } from 'react'
 import PackageSelector from './components/PackageSelector'
 import UploadZone from './components/UploadZone'
 import PreviewCanvas from './components/PreviewCanvas'
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   const [selectedPackage, setSelectedPackage] = useState(null)
@@ -81,6 +82,7 @@ export default function App() {
           <p className="text-xs text-gray-700">Made by <span className="text-gray-500 font-medium">Brando Dela Torre</span></p>
         </div>
       </footer>
+      <Analytics />
     </div>
   )
 }
