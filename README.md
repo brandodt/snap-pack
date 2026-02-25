@@ -1,6 +1,6 @@
 # SnapPack
 
-**SnapPack** is a browser-based photo package generator that produces print-ready 300 DPI layouts on a 4×6 inch canvas. Upload a photo, pick a package, and instantly download or print a studio-quality layout — no design software needed.
+**SnapPack** is a browser-based photo package generator that produces print-ready 300 DPI layouts on a 4×6 inch canvas. Upload a photo, pick a package, and instantly download or print a studio-quality layout, no design software needed.
 
 ---
 
